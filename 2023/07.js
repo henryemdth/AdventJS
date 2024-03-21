@@ -15,5 +15,4 @@ function drawGift(size, symbol) {
         last= dt+last;
     }
     return init+`${wall}${space}#\n`+last;
-    // test
 }
