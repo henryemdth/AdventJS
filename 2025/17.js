@@ -1,5 +1,5 @@
 function hasFourLights(board) {
-  if(!board?.length) return false;
+    if (!board?.length) return false;
     const patternGreen = /G{4,}/g;
     const patternRed = /R{4,}/g;
     return board.some(row => {
